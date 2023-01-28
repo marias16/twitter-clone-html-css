@@ -1,0 +1,82 @@
+
+body {
+    display:flex;
+    font-family: sans-serif;
+    margin-top: 0px;
+}
+
+aside {
+    background-color:coral;
+}
+
+/* aside 1 */
+.aside1 {
+    background-color: white;
+    border-right: 1px rgb(200, 200, 200,0.5) solid;
+    width:25%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: left;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 0px;
+}
+
+
+
+.aside1 ul {
+    list-style-type: none;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 1px;
+}
+
+.logo {
+    width: 50%;
+    height: 50%;
+    
+}
+
+.menuLeftRound {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuLeftRound:hover {
+    background-color: rgb(29, 155, 240,0.1);
+    border-radius: 100%;
+}
+
+.menuLeftBtn {
+    background-color: white;
+    padding: 10px 5px;
+    text-align: left;
+    display:flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    width: 50%;
+}
+
+.menuLeftBtn:hover {
+    background-color: rgb(200, 200, 200,0.5);
+}
+
+.menuLeftIcon {
+    width:20px;
+}
+
+
+/* aside 2*/
+.aside2 {
+    width: 35%;
+}
+
+main {
+    width: 40%;
+    background-color:white;
+}
