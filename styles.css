@@ -125,8 +125,41 @@ main {
 
 /* nav bar */
 
+.navbar {
+    list-style: none;
+    font-size: 0.8em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+    padding-left: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    color: #536471;
+}
 
+.navbar li {
+    width: 80.065px;
+    height: 53px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+}
 
+.navbar li:hover {
+    background-color: #E7E7E8;
+}
+
+.navActive {
+    color: black;
+    border-bottom: #1D9BF0 5px solid;
+    margin-bottom: -5px; /* se puede hacer mas accurate... */
+
+}
 /* aside 2*/
 .aside2 {
     width: 33%;
